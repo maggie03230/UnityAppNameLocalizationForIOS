@@ -1,3 +1,13 @@
+This repo is forked from: https://github.com/zeyangl/UnityAppNameLocalizationForIOS
+
+And it is forked to fix Xcode 10+ build problem: https://github.com/zeyangl/UnityAppNameLocalizationForIOS/issues/1
+
+The fix resolution was offered by @**[megamike55](https://github.com/megamike55)** at the issue page above.
+
+
+
+Origin repo readme:
+
 App name localization for Unity iOS apps.
 
 This plugin works by copying user defined locale folders to the exported xcode project, and modifying the project file accordingly.
@@ -12,3 +22,4 @@ You are welcome to use this code however you like. No need to inquire about lice
 Reference: 
 * https://bitbucket.org/Unity-Technologies/xcodeapi
 * https://bitbucket.org/Unity-Technologies/xcodeapi/pull-requests/13/creation-of-variantgroup-and/diff
+

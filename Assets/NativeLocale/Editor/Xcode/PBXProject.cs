@@ -1329,6 +1329,14 @@ namespace ChillyRoom.UnityEditor.iOS.Xcode
             return project.project;
         }
 
+        public void ClearVariantGroupEntries(string variantGroupName) {
+            PBXVariantGroupData variantGroup = VariantGroupsGetByName(variantGroupName);
+            if (variantGroup == null) {
+                variantGroup = CreateLocalizableVariantGroup(variantGroupName);
+            }
+            variantGroup.children.Clear();
+        }
+
         /// <summary>
         /// Add the reference to a locale .lproj to a VariantGroup.
         /// </summary>
